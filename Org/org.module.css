@@ -1,0 +1,148 @@
+.Org_main {
+    border: solid transparent 30px;
+    height:fit-content;
+    margin-top: 0px;
+    background-color: #EF4444;
+}
+
+.Org_text {
+    height: 130px;
+    font-size: 100px;
+    color: #311D3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.Org_line {
+    background: radial-gradient(circle, #311D3F, #2d1b3a, rgba(255, 0, 0, 0));
+    width: 100%;
+    height: 2px;
+}
+.Org_text>p {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms linear;
+
+}
+
+.Org_text>p:hover {
+    font-size: 90px;
+
+}
+.OrgMainCard {
+    margin-top: 25px;
+    padding-bottom: 150px;
+    height: 150vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.OrgFirstCard {
+    border: solid 8px #311D3F;
+    margin-top: 30px;
+    width: 25%;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px;
+    background-color: red;
+    /* z-index: 2; */
+    overflow: hidden;
+
+}
+
+.OrgCardName1 {
+    border: solid #311D3F;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #311D3F;
+    transition: 100ms ease-in-out;
+    /* z-index: 1; */
+    letter-spacing: 1px;
+
+}
+
+.OrgCardName1>pre {
+    transform: rotate(-90deg);
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OrgFirstCard:hover .OrgCardName1 {
+    width: 40px;
+    height: 140px;
+    left: 88%;
+    font-size: 15px;
+    background-color: white;
+}
+
+.OrgFirstCard:hover .OrgCardName1>pre {
+    color: #311D3F;
+}
+
+#OrgImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+
+}
+
+.OrgFirstCard:hover #OrgImage {
+    width: 105%;
+    height: 105%;
+
+}
+
+.OrgCardName2 {
+    border: solid #311D3F;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: fit-content;
+    height: 50px;
+    position: absolute;
+    transform: translateY(770%);
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #311D3F;
+    transition: 100ms ease-in-out;
+}
+
+.OrgCardName2>pre {
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.OrgFirstCard:hover .OrgCardName2{
+    transform:translateY(690%);
+    opacity: 1;
+}

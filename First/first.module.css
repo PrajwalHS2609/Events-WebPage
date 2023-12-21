@@ -1,0 +1,49 @@
+.first_main {
+    margin-top: 50px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typing {
+    display: inline-block;
+}
+
+.text {
+    border-right: 5px solid;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: typing 3s steps(16) alternate infinite;
+    /* animation: blinking 1s step-end alternate infinite; */
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+
+}
